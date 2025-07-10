@@ -67,3 +67,44 @@
     height: 48px;
     border: 0;
 }
+
+/* action style */
+.action-contenar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 116px;
+}
+
+.action-text-and-but{
+    width: 517px;
+    align-items: center;
+   
+}
+
+.action-title{
+    font-size: 42px;
+    font-weight: 700px;
+    color: #252432;
+}
+
+.action-dis{
+    font-size: 24px;
+    font-weight: 400px;
+    color: #252432;
+    width: 517px;
+}
+
+.action-button{
+    font-size: 16px;
+    font-weight: 700px;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    width: 229px;
+    height: 48px;
+    border: 0;
+}
+
+.action-img{
+    border-radius: 48px;
+}
