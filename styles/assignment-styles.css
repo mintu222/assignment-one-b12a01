@@ -69,7 +69,7 @@
 }
 
 /* action style */
-.action-contenar{
+.action-container{
     display: flex;
     justify-content: space-around;
     margin-top: 116px;
@@ -107,4 +107,147 @@
 
 .action-img{
     border-radius: 48px;
+}
+
+
+/* Productive Users Section */
+.users{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 116px;
+   
+}
+
+.users-container{
+    background-color: rgba(78, 71, 255, 0.1);
+    width: 1140px;
+    height: 306px;
+    border-radius: 24px;
+    padding: 50px 80px;
+}
+
+.users-text{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.users-values{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.users-report-title{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.users-report-name{
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 0;
+}
+
+
+/* What our users say */
+.users-say{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 137px;
+}
+
+.users-say-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-fit-design{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    width: 367px;
+    height: 243px;
+    box-shadow: #252432;
+}
+
+.users-say-text{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 50px;
+}
+
+.user-fit-title{
+    margin-bottom: 8px;
+}
+
+.user-fit-dis{
+    text-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 318.67px;
+    font-size: 16px;
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+    border-radius: 999px;
+}
+
+.users-fit-profile{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.name{
+    color: rgb(90, 88, 88);
+    margin-bottom: 0;
+}
+
+.date{
+    margin-top: 2px;
+    color: #989899;
+}
+
+
+/* Let’s Get in Touch */
+.touch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 92.5px;
+}
+
+.touch-container{
+    display: flex;
+    justify-content: space-around;
+}
+.touch-title{
+    font-size: 97px;
+    font-weight: bold;
+    width: 528px;
+}
+
+.div-t{
+    font-size: 18px;
+    font-weight: 500px;
+}
+
+.email{
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
 }
