@@ -234,6 +234,7 @@
 .touch-container{
     display: flex;
     justify-content: space-around;
+    gap: 115px;
 }
 .touch-title{
     font-size: 97px;
@@ -244,10 +245,25 @@
 .div-t{
     font-size: 18px;
     font-weight: 500px;
+    margin-bottom: 10px;
 }
 
 .email{
     width: 497px;
     height: 70px;
     border-radius: 10px;
+    margin-bottom: 19px;
+    background-color: #FFFFFF;
+    border-color: #d5d5d6;
+}
+
+.form-button{
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFFFFF;
+    width: 497px;
+    height: 62px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #4E47FF;
 }
