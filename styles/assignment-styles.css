@@ -13,6 +13,10 @@
   font-style: normal;
 }
 
+body{
+    background-color: #efeefa;
+}
+
 /* header styles */
 .header{
     background-image: url("../images/Hero-bg.png");
@@ -171,6 +175,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
 }
 
 .user-fit-design{
@@ -179,6 +184,7 @@
     width: 367px;
     height: 243px;
     box-shadow: #252432;
+    padding: 24px;
 }
 
 .users-say-text{
@@ -235,6 +241,8 @@
     display: flex;
     justify-content: space-around;
     gap: 115px;
+    margin-top: 71px;
+    margin-bottom: 71px;
 }
 .touch-title{
     font-size: 97px;
@@ -266,4 +274,49 @@
     border-radius: 10px;
     border: 0;
     background-color: #4E47FF;
+}
+
+
+/* footer */
+.footer{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo{
+    font-size: 100px;
+    font-weight: 700px;
+    color: #4E47FF;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.footer-dis{
+    font-size: 16px;
+    width: 531px;
+    color: #8987A1;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 103px;
+}
+
+.ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 48px;
+}
+
+.ancor{
+    list-style: none;
+    color: #8987A1;
+    text-decoration: none;
 }
